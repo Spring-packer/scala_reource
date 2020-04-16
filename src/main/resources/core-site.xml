@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://bigdata:9000</value>
+    </property>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/bigdata/hadoopdata</value>
+    </property>
+    <property>
+        <name>hadoop.proxyuser.bigdata.hosts</name>
+        <value>*</value>
+    </property>
+    <property>
+        <name>hadoop.proxyuser.bigdata.groups</name>
+        <value>*</value>
+    </property>
+</configuration>
